@@ -1,0 +1,10 @@
+[package]
+name = "pindash"
+version = "0.0.1"
+edition = "2021"
+description = "pindash.io"
+license = "Apache-2.0"
+
+[dependencies]
+viz = { git = "https://github.com/viz-rs/viz.git", rev = "04082e0" }
+tokio = { version = "1.29.1", features = ["full"] }
